@@ -10,3 +10,9 @@ This code uses python to help with installations of DNAC Clusters in Enterprise 
 6. DNS Filtering
 
 To run this code, you will need an instance of Cisco DNA Center and a python environment running 2.7 which is installed by default on MAC OS. You will need to install pip, and the Crypto and Paramiko modules.
+
+When this script it run it will ask for the IP address of the node please use either the VIP address or the node address if a single appliance. It will then ask for the MAGLEV password which you entered when building the node.
+
+After that the testing will commence and it will run various tests, checking NTP synchronization, DNS resolution, IP and URL  connectivity to cloud services with simulated 443 traffic.
+
+It will then provide a report of success or failures along with suggested remediation steps if required.
