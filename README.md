@@ -21,12 +21,10 @@ It will then provide a report of success or failures along with suggested remedi
 
 Python 2.7.16 is installed by default on MAC. To install pip do the following:
 
-sudo easy_install pip
+  sudo easy_install pip
 
 To install Crypto and Paramiko after that do the following:
 
-sudo pip install Crypto
-
-sudo pip install paramiko
-
-sudo pip install netmiko (optional)
+  sudo pip install Crypto
+  sudo pip install paramiko
+  sudo pip install netmiko (optional)
