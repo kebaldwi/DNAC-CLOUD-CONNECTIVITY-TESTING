@@ -16,3 +16,15 @@ When this script it run it will ask for the IP address of the node please use ei
 After that the testing will commence and it will run various tests, checking NTP synchronization, DNS resolution, IP and URL  connectivity to cloud services with simulated 443 traffic.
 
 It will then provide a report of success or failures along with suggested remediation steps if required.
+
+# Appendix - Installation Instructions
+
+Python 2.7.16 is installed by default on MAC. To install pip do the following:
+
+sudo easy_install pip
+
+To install Crypto and Paramiko after that do the following:
+
+sudo pip install Crypto
+sudo pip install paramiko
+sudo pip install netmiko (optional)
