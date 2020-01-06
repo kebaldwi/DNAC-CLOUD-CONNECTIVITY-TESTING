@@ -26,5 +26,7 @@ sudo easy_install pip
 To install Crypto and Paramiko after that do the following:
 
 sudo pip install Crypto
+
 sudo pip install paramiko
+
 sudo pip install netmiko (optional)
