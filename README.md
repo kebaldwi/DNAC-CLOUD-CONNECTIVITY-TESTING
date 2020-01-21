@@ -18,8 +18,11 @@ After that the testing will commence and it will run various tests, checking NTP
 It will then provide a report of success or failures along with suggested remediation steps if required.
 
 ### Sample Output
-log into grafana, select + create -> import
-![json](images/first.png?raw=true "Import JSON")
+CLI output of script running against DNAC
+![json](images/image1.png?raw=true "Import JSON")
+
+Text output from script run against DNAC saved locally.
+![json](images/image2.png?raw=true "Import JSON")
 
 # Installation Instructions MAC OS
 
