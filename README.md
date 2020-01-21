@@ -17,6 +17,10 @@ After that the testing will commence and it will run various tests, checking NTP
 
 It will then provide a report of success or failures along with suggested remediation steps if required.
 
+### Sample Output
+log into grafana, select + create -> import
+![json](images/first.png?raw=true "Import JSON")
+
 # Installation Instructions MAC OS
 
 Python 2.7.16 is installed by default on MAC. To install pip do the following:
